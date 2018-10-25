@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d21da6e"],{d1e0:function(n,o,p){n.exports=p.p+"static/img/logo-min.4beeca18.png"}}]);
+//# sourceMappingURL=chunk-2d21da6e.a08abe09.js.map

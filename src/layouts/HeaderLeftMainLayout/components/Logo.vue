@@ -2,7 +2,7 @@
 	<div class="v-middle logo" @click="toIndex">
 		<template v-if="isMenuOpened">
 			<img src="../assets/logo.png">
-			<span class="site-name">后台模板</span>
+			<span class="site-name">资源审核系统</span>
 		</template>
 		<template v-else>
 			<img class="min-logo" src="../assets/logo-min.png">

@@ -37,8 +37,9 @@
     }
     .main-container {
       position: relative;
-      padding: 24px;
-      min-height: 100vh;
+      // padding: 60px 0 0 0;
+      padding: 80px 20px 20px 20px;
+      // min-height: 100vh;
       background-color: #f0f2f5;
     }
   }

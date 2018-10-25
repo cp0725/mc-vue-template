@@ -1,13 +1,13 @@
 <template>
-  <div class="top-bar">
+  <div class="top-bar" style="overflow:hidden">
     <div class="top-bar-header">
       <div class="top-bar-toggle-menu" :class="{collapsed: !isMenuOpened}" @click="toggleMenu">
         <i class="el-icon-caret-left"></i>
       </div>
       <div class="top-bar-right">
-        <div class="user-help">
+        <!-- <div class="user-help">
           <i>?</i>
-        </div>
+        </div> -->
         <div class="user-profile-content">
           <el-dropdown>
             <div class="v-middle user-info">
@@ -26,12 +26,11 @@
         </div>
       </div>
     </div>
-    <div class="top-bar-breadcrumb">
+    <!-- <div class="top-bar-breadcrumb">
       <breadcrumb />
-    </div>
+    </div> -->
   </div>
 </template>
-
 
 <script>
   import Breadcrumb from './Breadcrumb'
@@ -62,15 +61,17 @@
 <style lang="scss" scoped>
   $topBarHeight: 60px;
   .top-bar-header {
+    width: 100%;
     height: $topBarHeight;
     display: flex;
     justify-content: space-between;
     padding-right: 1em;
     background: #fff;
     box-shadow: 0 1px 4px rgba(0,21,41,.08);
-    position: relative;
-    z-index: 9;
+    position: fixed;
+    z-index: 2;
     .top-bar-toggle-menu{
+      float: left;
       cursor: pointer;
       width: $topBarHeight;
       text-align: center;
@@ -100,10 +101,12 @@
       }
     }
     .top-bar-right{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: auto;
+      // display: flex;
+      // justify-content: flex-end;
+      // align-items: center;
+      // width: auto;
+      position: fixed;
+      right: 20px;
       .user-help {
         margin-right: 10px;
         cursor: pointer;
@@ -125,6 +128,7 @@
           position: relative;
           height: $topBarHeight;
           color: rgba(0,0,0,.65);
+          cursor: pointer;
           &:hover{
             color: #000;
           }

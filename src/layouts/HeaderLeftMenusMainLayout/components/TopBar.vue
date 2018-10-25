@@ -32,9 +32,9 @@
         </el-menu>
       </div>
       <div class="top-bar-right">
-        <div class="user-help">
+        <!-- <div class="user-help">
           <i>?</i>
-        </div>
+        </div> -->
         <div class="user-profile-content">
           <el-dropdown>
             <div class="v-middle user-info">
@@ -215,6 +215,7 @@
           position: relative;
           height: $topBarHeight;
           color: rgba(255, 255, 255, 0.65);
+          cursor: pointer;
           &:hover{
             color: #FFF;
           }

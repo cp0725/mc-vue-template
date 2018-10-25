@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/assets/logo-min.png"],"names":["module","exports","__webpack_require__","p"],"mappings":"mGAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/chunk-2d21da6e.a08abe09.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/img/logo-min.4beeca18.png\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/2demo/blocks/empty-content/imgs/preview.png"],"names":["module","exports","__webpack_require__","p"],"mappings":"qGAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"static/js/chunk-2d0efcfc.91f52b05.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/img/preview.dea7e803.png\";"],"sourceRoot":""}

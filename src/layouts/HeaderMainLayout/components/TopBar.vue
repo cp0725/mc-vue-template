@@ -35,7 +35,7 @@
         <div class="user-profile-content">
           <el-dropdown>
             <div class="v-middle user-info">
-              <i class="fas fa-user"></i>
+              <!-- <i class="fas fa-user"></i> -->
               <span class="user-name">管理员</span>
               <i class="el-icon-arrow-down el-icon--right"></i>
             </div>
@@ -51,9 +51,9 @@
         </div>
       </div>
     </div>
-    <div class="breadcrumb">
+    <!-- <div class="breadcrumb">
       <breadcrumb></breadcrumb>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -90,11 +90,14 @@
   $topBarHeight: 60px;
   $menuBackground: #001529;
   .top-bar {
+    width: 100%;
     height: $topBarHeight;
     background-color: $menuBackground;
     color: #FFF;
     display: flex;
     padding: 0 1em;
+    position: fixed;
+    z-index: 2;
     .top-bar-left{
       width:auto;
       .page-title{
@@ -184,7 +187,9 @@
             margin: 0 8px 0 12px;
             border-radius: 4px;
           }
-          .user-name {}
+          .user-name {
+            cursor: pointer;
+          }
 
         }
       }

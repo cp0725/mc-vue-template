@@ -9,7 +9,7 @@ const asideMenuConfig = [];
 let isShowDemo = true
 let myAsideMenuConfig = asideMenuConfig
 if(isShowDemo) {
-  let demoMenuConfig = require('./demo/menu.json')
+  let demoMenuConfig = require('./config/menu.json')
   myAsideMenuConfig = asideMenuConfig.concat(demoMenuConfig['menus'])
 }
 

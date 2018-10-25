@@ -1,0 +1,14 @@
+{
+	"pages": [  
+    {
+      "name": "imgVerify",
+      "path": "/img/imgVerify",
+      "component": "/components/imgVerify/index.vue"
+    },
+    {
+      "name": "imgUpload",
+      "path": "/img/imgUpload",
+      "component": "/components/imgUpload/index.vue"
+    }
+  ]
+}

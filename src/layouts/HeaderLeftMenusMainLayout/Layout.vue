@@ -73,8 +73,9 @@
     }
     .main-container {
       position: relative;
-      padding: 24px;
-      min-height: 100vh;
+      // padding: 24px;
+      padding: 20px;
+      // min-height: 100vh;
       background-color: #f0f2f5;
     }
   }

@@ -1,5 +1,5 @@
 <template>
-  <div class="rad-breadcrumb" v-if="breadcrumb.length">
+  <!-- <div class="rad-breadcrumb" v-if="breadcrumb.length">
     <div class="title"> {{ breadcrumb[breadcrumb.length - 1]['name'] }} </div>
     <div class="breadcrumb">
       <el-breadcrumb separator="/">
@@ -9,7 +9,7 @@
         </el-breadcrumb-item>
       </el-breadcrumb>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
