@@ -1,0 +1,82 @@
+{
+  "menus": [
+    {
+      "name": "表单示例",
+      "icon": "el-icon-edit-outline",
+			"path": "/demo/pages/form",
+      "children": [{
+        "name": "简单表单",
+        "path": "/basic-form",
+        "icon": "el-icon-menu"
+      }]
+		},
+		{
+      "name": "表格示例",
+      "icon": "fas fa-table",
+			"path": "/demo/pages/table",
+      "children": [{
+        "name": "简单表格",
+        "path": "/select-table",
+        "icon": "el-icon-menu"
+      }, {
+        "name": "查询表格",
+        "path": "/query-table",
+        "icon": "el-icon-menu"
+      }, {
+        "name": "固定列表格",
+        "path": "/fixed-table",
+        "icon": "el-icon-menu"
+      }, {
+        "name": "页签表格",
+        "path": "/tab-table",
+        "icon": "el-icon-menu"
+      }]
+		},
+		{
+      "name": "信息展示",
+      "icon": "el-icon-info",
+			"path": "/demo/pages/details",
+      "children": [{
+        "name": "概要信息",
+        "path": "/data-display",
+        "icon": "el-icon-menu"
+      }]
+		},
+		{
+      "name": "图表",
+      "icon": "el-icon-picture",
+			"path": "/demo/pages/charts",
+      "children": [{
+        "name": "基础图表",
+        "path": "/basic",
+        "icon": "el-icon-menu"
+      }, {
+        "name": "复杂图表",
+        "path": "/complex",
+        "icon": "el-icon-menu"
+      }]
+		},
+		{
+      "name": "异常信息",
+      "icon": "el-icon-error",
+			"path": "/demo/pages/exception",
+      "children": [{
+        "name": "500",
+        "path": "/basic-exception",
+        "icon": "el-icon-menu"
+      }, {
+        "name": "404",
+        "path": "/basic-not-found",
+        "icon": "el-icon-menu"
+      }, {
+        "name": "403",
+        "path": "/not-permission",
+        "icon": "el-icon-menu"
+      }, {
+        "name": "无内容",
+        "path": "/empty-content",
+        "icon": "el-icon-menu"
+      }]
+		}
+	]
+}

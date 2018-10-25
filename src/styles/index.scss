@@ -1,0 +1,144 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: rgba(0,0,0,.65);
+  font-family: Chinese Quote,-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+}
+
+div:focus{
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.hide{
+  display: none!important;
+}
+
+.v-middle{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+::selection {
+  background: #1890ff;
+  color: #fff
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #AAA;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+// .el-menu--vertical[x-placement]{}
+// .el-menu--popup{
+//   background: #00142b;
+//   color: #FFF;
+//   padding: 10px 0px;
+//   border-radius: 5px;
+//   .el-menu-item{
+//     color: hsla(0,0%,100%,.65);
+//     height: 46px;
+//     line-height: 46px;
+//     &:hover, &:focus{
+//       background-color: transparent;
+//       color: #FFF!important;
+//     }
+//     &.is-active{
+//       background-color: transparent;
+//       color: #FFF!important;
+//     }
+//   }
+// }
+//
+// .el-menu--horizontal .el-menu .el-menu-item,
+// .el-menu--horizontal .el-menu .el-submenu__title{
+//   background-color: transparent;
+// }
+
+.page-summary{
+  background-color: #FFF;
+  margin: 0px 0px 24px 0px;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding: 24px 24px 24px 32px;
+  margin-top: -24px;
+  border-bottom: 1px solid #e8e8e8;
+  .demo-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0,0,0,.85);
+    padding-bottom: 10px;
+    padding-top: 0px;
+    overflow: hidden;
+  }
+  .demo-desc{
+
+  }
+}
+
+.page-block{
+  background-color: #FFF;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 24px;
+  &.raw{
+    padding: 0;
+  }
+  .page-block-title{
+    border-bottom: solid #EEE 1px;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 16px;
+  }
+}

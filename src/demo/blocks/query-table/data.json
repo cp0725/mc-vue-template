@@ -1,0 +1,43 @@
+{
+  "status": "SUCCESS",
+  "data": {
+    "list": [
+      {
+        "id": 0,
+        "title": "测试0",
+        "level": "普通",
+        "terminal": "iOS",
+        "displayType": "通知---订单通知",
+        "associateId": "ssu_id",
+        "params": ["order_id", "end_time"],
+        "status": "正常",
+        "expire": "2018-10-01",
+        "system": "订单"
+      },
+      {
+        "id": 1,
+        "title": "测试1",
+        "level": "普通",
+        "terminal": "iOS",
+        "displayType": "通知---订单通知",
+        "associateId": "ssu_id",
+        "params": ["order_id", "end_time"],
+        "status": "正常",
+        "expire": "2018-10-01",
+        "system": "订单"
+      },
+      {
+        "id": 2,
+        "title": "测试2",
+        "level": "普通",
+        "terminal": "iOS",
+        "displayType": "通知---订单通知",
+        "associateId": "ssu_id",
+        "params": ["order_id", "end_time"],
+        "status": "正常",
+        "expire": "2018-10-01",
+        "system": "订单"
+      }
+    ]
+  }
+}
